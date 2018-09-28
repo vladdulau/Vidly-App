@@ -26,10 +26,11 @@ namespace Vidly.Controllers
             var movies = _context.Movies.ToList();
             return View(movies);
         }
-      
+
+        [Route("Movies/Details/{id}")]
         public ActionResult Details(int id)
         {
-            var movie = _context.Customers.SingleOrDefault(c => c.Id == id);
+            var movie = _context.Movies.SingleOrDefault(c => c.Id == id);
             if (movie == null)
                 return HttpNotFound();
 

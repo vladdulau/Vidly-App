@@ -232,9 +232,22 @@
     <Compile Include="Migrations\201809281548151_UpdateExistingNameMemebershipTypes.Designer.cs">
       <DependentUpon>201809281548151_UpdateExistingNameMemebershipTypes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201809281556134_AddBirthdayToCostumer.cs" />
+    <Compile Include="Migrations\201809281556134_AddBirthdayToCostumer.Designer.cs">
+      <DependentUpon>201809281556134_AddBirthdayToCostumer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809281634452_AddGenreToMovies.cs" />
+    <Compile Include="Migrations\201809281634452_AddGenreToMovies.Designer.cs">
+      <DependentUpon>201809281634452_AddGenreToMovies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201809281706451_PopulateGenreTable.cs" />
+    <Compile Include="Migrations\201809281706451_PopulateGenreTable.Designer.cs">
+      <DependentUpon>201809281706451_PopulateGenreTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -339,6 +352,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201809281548151_UpdateExistingNameMemebershipTypes.resx">
       <DependentUpon>201809281548151_UpdateExistingNameMemebershipTypes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809281556134_AddBirthdayToCostumer.resx">
+      <DependentUpon>201809281556134_AddBirthdayToCostumer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809281634452_AddGenreToMovies.resx">
+      <DependentUpon>201809281634452_AddGenreToMovies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201809281706451_PopulateGenreTable.resx">
+      <DependentUpon>201809281706451_PopulateGenreTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
