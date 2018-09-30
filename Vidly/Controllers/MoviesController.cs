@@ -35,7 +35,6 @@ namespace Vidly.Controllers
             if (movie == null)
                 return HttpNotFound();
 
-
             return View(movie);
         }
 
